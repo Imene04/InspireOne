@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="InspireOne - A modern and clean HTML template for your website">
+    <title>InspireOne - One Page HTML Template</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Modak&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.js"></script>
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">InspireOne</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+           
+        </nav>
+    </header>
+
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to InspireOne</h1>
+        <p>A modern and unique template to inspire your projects.</p>
+        <a href="#contact" class="cta-button">Get Started</a>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features" data-aos="fade-up">
+        <h2>Features</h2>
+        <div class="feature-items">
+            <div class="feature-item" data-aos="fade-right">
+                <h3>Modern Design</h3>
+                <p>A clean design to captivate your audience.</p>
+            </div>
+            <div class="feature-item" data-aos="fade-up">
+                <h3>Responsive Layout</h3>
+                <p>Optimized for all devices, from mobiles to desktops.</p>
+            </div>
+            <div class="feature-item" data-aos="fade-left">
+                <h3>Easy to Customize</h3>
+                <p>A flexible and easy-to-edit template to meet your needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about" data-aos="fade-up">
+        <h2>About</h2>
+        <p>We offer high-quality services to meet your needs.</p>
+        <div class="about-content">
+            <div class="about-item" data-aos="fade-right">
+                <h3>Our Mission</h3>
+                <p>To provide innovative and effective solutions.</p>
+            </div>
+            <div class="about-item" data-aos="fade-up">
+                <h3>Our Vision</h3>
+                <p>To be the leader in our industry.</p>
+            </div>
+            <div class="about-item" data-aos="fade-left">
+                <h3>Our Values</h3>
+                <p>Integrity, Innovation, Excellence.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Do you have any questions or want to know more? Contact us!</p>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="https://www.facebook.com/profile.php?id=61566840490353&mibextid=LQQJ4d"><i class="fab fa-facebook"></i> Facebook</a>
+                <a href="https://x.com/ConceptLcn"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="https://www.instagram.com/lcn_concept_numerique/profilecard/?igsh=MWI3NHV4cjV4cHNjdg=="><i class="fab fa-instagram"></i> Instagram</a>
+            </div>
+            <p>© 2024 InspireOne. All rights reserved. Designed by Laboratoire concept numérique.</p>
+        </div>
+    </footer>
+    
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+            menuToggle.addEventListener('click', function () {
+                navLinks.classList.toggle('active');
+            });
+        });
+
+        AOS.init({ duration: 1200 });
+    </script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
