@@ -31,10 +31,9 @@
  To replace the template images:
  1. Upload your images to the `/images` folder. 
  2. Modify the `<img>` tags in the `index.html` to point to your new images. 
- 
- ## Demo
- To see the template in action, you can visit the online demo (link to be added once the demo is live).
 
+ ## Demo
+ To see the template in action, you can visit the online demo https://inspire-one.vercel.app .
 
  ## License  
  This template is under the [InspireOne Free License Agreement] (LICENSE.md). Please refer to the `LICENSE` for more details.
